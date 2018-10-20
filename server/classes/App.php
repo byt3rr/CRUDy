@@ -16,7 +16,7 @@ class App
         try {
             $host = $this->ini['host'];
             $dbname = $this->ini['db_name'];
-            $conn = new PDO("mysql:host=$host;dbname=$dbname;", $this->ini['username'], $this->ini['password']);
+            $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $this->ini['username'], $this->ini['password']);
             // set the PDO error mode to exception
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
