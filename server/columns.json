@@ -1,0 +1,32 @@
+[
+    {
+        "nameInTable": "id",
+        "show": false,
+        "title": null,
+        "type": "int"
+    },
+    {
+        "nameInTable": "field1",
+        "show": true,
+        "title": "Field 1",
+        "type": "number"
+    },
+    {
+        "nameInTable": "field2",
+        "show": true,
+        "title": "Field 2",
+        "type": "text"
+    },
+    {
+        "nameInTable": "field3",
+        "show": true,
+        "title": "Field 3",
+        "type": "checkbox"
+    },
+    {
+        "nameInTable": "field4",
+        "show": true,
+        "title": "Field 4",
+        "type": "text"
+    }
+]
